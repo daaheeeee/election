@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+ul {
+    list-style: none
+}
+
+.row {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+/* 헤더구역 */
+#header { 
+    background: pink;
+}
+/* 푸터구역 */
+#footer { 
+    background: tomato;
+}
+/* 메인페이지 */
+#mainContent {
+    padding:300px 200px;
+}
+
+/* 일렉션페이지 */
+#elecContent .tabTit li {
+    background: #f00;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+
+
+#elecContent .loading {
+    height: 500px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+#elecContent .page a.on {
+    color: red;
+}
